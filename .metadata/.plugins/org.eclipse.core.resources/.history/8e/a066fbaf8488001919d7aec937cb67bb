@@ -40,16 +40,13 @@ public class You
 		return firstName + " " + lastName;
 	}
 	
-	public String setFavoriteAnimal(String s)
+	public String setFavoriteAnimal()
 	{
-		favoriteAnimal = s;
 		return favoriteAnimal;
 	}
 	
 	public int happyBirthday()
 	{
-		age++;
-		System.out.println("Happy Birthday!");
 		return age;
 	}
 }
