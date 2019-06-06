@@ -18,8 +18,7 @@
  *  - Add achiu-frhsd as a collaborator
  *
  */
-public class You
-{
+public class You{
 
 	private String firstName;
 	private String lastName;
@@ -27,26 +26,5 @@ public class You
 	private int age;
 
 	// Write your code here
-	public You()
-	{
-		firstName = "Matthew";
-		lastName = "Perkins";
-		favoriteAnimal = "Big Yoshi";
-		age = 16;
-	}
 	
-	public String getFullName()
-	{
-		return firstName + " " + lastName;
-	}
-	
-	public String setFavoriteAnimal()
-	{
-		return favoriteAnimal;
-	}
-	
-	public int happyBirthday()
-	{
-		return age;
-	}
 }
